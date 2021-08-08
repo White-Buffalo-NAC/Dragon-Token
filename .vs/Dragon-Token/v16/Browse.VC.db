@@ -732,3 +732,11 @@ curl https://eth-mainnet.alchemyapi.io/v2/https://eth-rinkeby.alchemyapi.io/v2/o
 
 "https://cro-mainnet.g.alchemy.com/fwomrtpx4nkytj65yje8il9fhw2zvopv/tendermint/"
 ADD file:f278386b0cef68136129f5f58c52445590a417b624d62bca158d4dc926c340df in / .
+Token\build\build
+git submodule update --init --recursive
+mkdir build
+cd build
+
+cmake --build . --config Release
+
+cmake .. -DETHASHCUDA=ON DETHASHCL=ON DAPICORE=ON DETHDBUS=ON -DUSE_SYS_OPENCL=ON
