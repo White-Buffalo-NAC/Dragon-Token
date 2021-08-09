@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-  docs:
+  docs:https://eth-mainnet.alchemyapi.io/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha
     build:
       context: .
       dockerfile: Dockerfile
