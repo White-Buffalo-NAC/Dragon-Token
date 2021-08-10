@@ -718,7 +718,7 @@ curl https://eth-mainnet.alchemyapi.io/v2/https://eth-rinkeby.alchemyapi.io/v2/o
             "GO111MODULE": "on"
           }
         ],
-        "git": {
+        "git": {faa5d978a84a40b0472a32851fadeda81f2bfe6f
           "submodules": true
         },
         "script": [
