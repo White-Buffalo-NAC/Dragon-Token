@@ -700,11 +700,17 @@ curl https://eth-mainnet.alchemyapi.io/v2/https://eth-rinkeby.alchemyapi.io/v2/o
             "GO111MODULE": "on"
           }
         ],
-        "script": [
+        "script": [npm install web3
           "go run build/ci.go test -coverage $TEST_PACKAGES"
         ]
       },
-      {
+      {if (typeof web3 !== 'undefined') {
+ web3 = new Web3(web3.currentProvider);
+} else {
+ // set the provider you want from Web3.providers
+ web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+}
+
         "stage": "build",
         "if": "type = cron",
         "os": "Windows",
