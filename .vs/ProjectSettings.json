@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "CurrentProjectSetting": "Mingw64"
 }
 =======
@@ -18,3 +19,7 @@
   "DETHASHCL=ON" "DAPICORE=ON",
   "DETHDBUS=ON" "-DUSE_SYS_OPENCL=ON"
 >>>>>>> 9d4214c (Token\build\build)
+=======
+  "CurrentProjectSetting": "Mingw64"
+}
+>>>>>>> 7677801ad9c44b7d1c8d31e66ba7e389a112bed7
