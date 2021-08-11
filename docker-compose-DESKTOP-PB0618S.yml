@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-  docs: https://eth-mainnet.alchemyapi.io/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha
+  docs:
     build:
       context: .
       dockerfile: Dockerfile
@@ -91,4 +91,4 @@ services:
       --userland-proxy                        Use userland proxy for loopback traffic (default true)
       --userland-proxy-path string            Path to the userland proxy binary
       --userns-remap string                   User/Group setting for user namespaces
-  -v, --version                               Print version information and quitfaa5d978a84a40b0472a32851fadeda81f2bfe6f
+  -v, --version                               Print version information and quit
