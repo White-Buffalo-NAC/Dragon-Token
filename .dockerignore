@@ -50,8 +50,8 @@ node_modules
               containerPort:<Port>
     
              steps
-            -uses:actions/checkout@v2
-            -name:Build
+            uses:actions/checkout@v2
+            name:Build
              uses:docker/build-push-action@v1
              with:https://polygon-mainnet.g.alchemy.com/v2/o93me4joIgLBJZ_b7E1ROZJYj4x7_hha
              push:true
