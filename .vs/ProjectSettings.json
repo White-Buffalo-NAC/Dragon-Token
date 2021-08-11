@@ -30,4 +30,5 @@
     "DAPICORE=ON" "DETHDBUS=ON",
     "-DUSE_SYS_OPENCL=ON" "var",
     "version" "=",
-    "web3.version.network;" "console.log(version);" // 54
+    "web3.version.network;" "console.log(version);", // 54
+    "e3a828c832d68d65cadc1cc3c0d07157cf399708f4498c53cd87657a88aa9dcbb3d2398fad51902b9648832e5d33a400b353ebd12233312bfae9fb7309e9ddd5@127.0.0.1": 30303
